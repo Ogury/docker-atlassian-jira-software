@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: docker-atlassian-jira-software
+  title: docker-atlassian-jira-software
+  description: Atlassian JIRA Software wrapped in a Docker image
+  annotations:
+    github.com/project-slug: Ogury/docker-atlassian-jira-software
+  tags:
+    - ruby
+    - atlassian
+    - docker
+spec:
+  type: library
+  owner: group:default/devops
+  lifecycle: production
